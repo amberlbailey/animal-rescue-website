@@ -13,33 +13,51 @@
 </head>
 <body>
 
-  <header>
-    <h1>Sit With Me Shelter Dog Rescue</h1>
-    <nav tabindex="0" id="nav" role="navigation">
-      <ul class="nav-wrapper list-group">
-        <li>
-          <a href="index.html" class="current milli">Home</a>
-        </li>
-        <li>
-          <a href="adopt.html" class="milli">Adopt</a>
-        </li>
-        <li>
-          <a href="rescue.html" class="milli">Our Dogs</a>
-        </li>
+  <header class="masthead" role="banner">
+    <img class="img-flex logo" src="images/logo.png" alt="" aria-details="logo">
+    <nav class="wrapper gutter-1-2 nav" role="navigation" tabindex="0" id="nav">
+      <ul class="mega list-group-inline push-0">
+        <li class="gutter-1-2"><a href="index.html">Home</a></li>
+        <li class="gutter-1-2"><a href="adopt.html">Adopt</a></li>
+        <li class="gutter-1-2"><a href="rescue.html">Our Dogs</a></li>
+        <li class="gutter-1-2"><a href="#">Blog</a></li>
+        <li class="gutter-1-2"><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
 
+  <main role="main" id="main" tabindex="0">
+    <section class="about push" id="about">
+      <div class="embed embed-24by10">
+        <img class="embed-item" src="images/banner.jpg" alt="">
+      </div>
+      <div class="about-content pad-t-1-2 pad-b-1-2">
+        <div class="wrapper gutter-1-2">
+          <h2 class="push-0 yotta">Adoption</h2>
+          <p class="mega">Adopting a dog is not a decision that should be made lightly but is a the greatest thing you could do for these wonderful beings and often your whole family.</p>
+        </div>
+      </div>
+    </section>
+
   <section>
-    <div>
+    <div class="wrapper">
       <form class="grid" method="post" action="#">
-          <div>
-            <label for="dog" class="push-1-8">The name of the dog you would like to adopt</label>
-            <input class="dog" id="dog">
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="dog" class="push-1-8">Dog to adopt</label>
+            <select id="dog" name="dog">
+              <option>Azura</option>
+              <option>Blanca</option>
+              <option>Bobbi Jo</option>
+              <option>Chester</option>
+              <option>Coinneach</option>
+              <option>Dot</option>
+              <option>Eduardo</option>
+              <option>Emma-Lee</option>
+            </select>
           </div>
 
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="name" class="push-1-8">First And Last Name</label>
+            <label for="name" class="push-1-8">Your First And Last Name</label>
             <input id="name" type="name" required>
           </div>
 
@@ -64,14 +82,14 @@
           </div>
 
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="child" class="push-1-8">Number Of Children</label>
+            <label for="child" class="push-1-8">Do You Have Children?</label>
             <select id="child" name="child">
               <option>Yes</option>
               <option>No</option>
             </select>
           </div>
 
-          <div class="unit xs-1 text-center">
+          <div class="unit xs-1 text-center pad-b-2">
             <button class="btn mega" type="submit">Submit Application</button>
           </div>
         </form>
@@ -79,15 +97,28 @@
   </section>
 
   <footer>
-    <div>
-      <h2>Stay Connected</h2>
-      <h3>Facebook</h3>
-      <h3>Twitter</h3>
-      <h3>Instagram</h3>
+    <div class="gutter-1-2 wrapper">
+      <h2 class="push-0 pad-b-1-2">Stay Connected</h2>
+      <ul class="grid list-group">
+        <li class="unit [ xs-1-3 s-1-3 m-1-3 l-1-3 ]">
+          <img class="img-flex logo" src="images/facebook.png" alt="" aria-details="facebook-logo">
+          <h3>Facebook</h3>
+        </li>
+        <li class="unit [ xs-1-3 s-1-3 m-1-3 l-1-3 ]">
+          <img class="img-flex logo pad-b-1-2" src="images/twitter.png" alt="" aria-details="twitter-logo">
+          <h3>Twitter</h3>
+        </li>
+        <li class="unit [ xs-1-3 s-1-3 m-1-3 l-1-3 ]">
+          <img class="img-flex logo" src="images/instagram.png" alt="" aria-details="instagram-logo">
+          <h3>Instagram</h3>
+        </li>
+      </ul>
     </div>
 
-    <div>
-      <small> Copyright © 2017. All Rights Reserved. Powered by WordPress. Designed by Amber Bailey</small>
+    <div class="footer">
+      <div class="pad-t-1-2 pad-b-1-2 gutter-1-2 wrapper">
+        <small class="micro"> Copyright © 2017. All Rights Reserved. Powered by WordPress. Designed by Amber Bailey</small>
+      </div>
     </div>
   </footer>
 
