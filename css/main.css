@@ -2,6 +2,59 @@ html {
   font-family: 'Merriweather', serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, nav, .about-content {
   font-family: 'Nunito', sans-serif;
+}
+
+.logo img {
+  max-width: 200px;
+  min-width: 150px;
+  width: 70%;
+}
+
+.nav {
+  background-color: #4590d0;
+  position: relative;
+  z-index: 2;
+}
+
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: .5rem .75rem;
+}
+
+.about {
+  position: relative;
+}
+
+.about-content {
+  color: #fff;
+  background-color: #4590d0;
+}
+
+.btn {
+  background-color: #ea7808;
+  border-color: #ea7808;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #f2b579;
+  border-color: #f2b579;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .about-content {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    color: #fff;
+
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(17, 60, 0, 0), rgba(17, 60, 0, .8));
+  }
+
 }
