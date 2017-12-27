@@ -64,6 +64,10 @@ a:hover {
   width: 20%;
 }
 
+.facebook, .instagram, .twitter {
+  width: 5%;
+}
+
 .footer {
   background-color: #4590d0;
   color: #fff;
