@@ -45,6 +45,14 @@ h1, h2, h3, nav, .about-content {
   border-color: #f2b579;
 }
 
+a {
+  color: #ea7808;
+}
+
+a:hover {
+  color: #6d3702;
+}
+
 @media only screen and (min-width: 35em) {
 
   .about-content {
