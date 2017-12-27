@@ -56,7 +56,7 @@ a:hover {
   color: #6d3702;
 }
 
-li {
+.rescue li {
   text-decoration: none;
 }
 
@@ -69,7 +69,7 @@ li {
   color: #fff;
 }
 
-.blog {
+.blue-tran {
   background-color: #e5ecf2;
 }
 
