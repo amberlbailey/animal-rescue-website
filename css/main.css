@@ -24,6 +24,13 @@ h1, h2, h3, nav, .about-content, .btn {
   padding: .5rem .75rem;
 }
 
+.nav a:hover,
+.nav a:focus {
+  outline: 3px solid #000;
+  background-color: #fff;
+  color: #113c00;
+}
+
 .about {
   position: relative;
 }
