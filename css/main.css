@@ -18,11 +18,15 @@ h1, h2, h3, nav, .about-content, .btn {
 }
 
 a, .events {
-  color: #4590d0;
+  color: #000;
 }
 
 a:hover {
-  color: #ea7808;
+  color: #4590d0;
+}
+
+.events:hover {
+  color: #4590d0;
 }
 
 .nav a {
@@ -48,20 +52,22 @@ a:hover {
   background-color: #4590d0;
 }
 
-.btn-light, .btn {
-  background-color: #ea7808;
-  border-color: #ea7808;
+.btn {
+  background-color: transparent;
+  border-color: #fff;
   color: #fff;
+}
+
+.btn-light {
+  background-color: transparent;
+  border-color: #4590d0;
+  color: #000;
 }
 
 .btn:hover {
-  background-color: #535553;
-  border-color: #000;
+  background-color: #ea7808;
+  border-color: #ea7808;
   color: #fff;
-}
-
-.events:hover {
-  color: #6d3702;
 }
 
 .rescue li {
@@ -74,11 +80,7 @@ a:hover {
 
 .footer {
   background-color: #4590d0;
-  color: #fff;
-}
-
-.blue-tran {
-  background-color: #e5ecf2;
+  color: #000;
 }
 
 @media only screen and (min-width: 35em) {
