@@ -40,15 +40,16 @@ h1, h2, h3, nav, .about-content, .btn {
   background-color: #4590d0;
 }
 
-.btn-light {
+.btn-light, .btn {
   background-color: #ea7808;
   border-color: #ea7808;
   color: #fff;
 }
 
 .btn:hover {
-  background-color: #f2b579;
-  border-color: #f2b579;
+  background-color: #fff;
+  border-color: #000;
+  color: #000;
 }
 
 a, .events {
@@ -56,7 +57,7 @@ a, .events {
 }
 
 a:hover {
-  color: #6d3702;
+  color: #ea7808;
 }
 
 .events:hover {
