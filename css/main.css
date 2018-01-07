@@ -47,9 +47,9 @@ h1, h2, h3, nav, .about-content, .btn {
 }
 
 .btn:hover {
-  background-color: #fff;
+  background-color: #535553;
   border-color: #000;
-  color: #000;
+  color: #fff;
 }
 
 a, .events {
