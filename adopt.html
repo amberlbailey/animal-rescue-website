@@ -22,8 +22,8 @@
   </ul>
 
   <header class="masthead" role="banner">
-    <img class="img-flex logo" src="images/logo.png" alt="" aria-details="logo">
-    <nav class="wrapper gutter-1-2 nav" role="navigation" tabindex="0" id="nav">
+    <img class="img-flex logo wrapper max-width pad-b-1-2" src="images/logo.png" alt="" aria-details="logo">
+    <nav class="wrapper gutter-double nav" role="navigation" tabindex="0" id="nav">
       <ul class="mega list-group-inline push-0">
         <li class="gutter-1-2"><a href="index.html">Home</a></li>
         <li class="gutter-1-2"><a href="adopt.html">Adopt</a></li>
@@ -39,34 +39,23 @@
       <div class="embed embed-24by10">
         <img class="embed-item" src="images/banner.jpg" alt="">
       </div>
-      <div class="about-content pad-t-1-2 pad-b-1-2">
+      <div class="gutter-double about-content pad-t-1-2 pad-b-2">
         <div class="wrapper gutter-1-2">
-          <h1 class="push-0 yotta">Adoption</h1>
-          <p class="mega">Adopting a dog is not a decision that should be made lightly but is a the greatest thing you could do for these wonderful beings and often your whole family.</p>
+          <h1 class="yotta">Adoption</h1>
         </div>
       </div>
     </section>
 
     <section id="form">
-      <div class="wrapper">
+      <div class="wrapper gutter-double">
         <form class="grid" method="post" action="#">
-          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="dog" class="push-1-8">Dog to adopt</label>
-            <select id="dog" name="dog">
-              <option>Azura</option>
-              <option>Blanca</option>
-              <option>Bobbi Jo</option>
-              <option>Chester</option>
-              <option>Coinneach</option>
-              <option>Dot</option>
-              <option>Eduardo</option>
-              <option>Emma-Lee</option>
-            </select>
-          </div>
 
+          <div class="unit [ xs-1 s-1 m-1 l-1 ] gutter-1-2">
+            <h2 class="push-0 pad-b-1-4 giga">Basic Information</h2>
+          </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="first-last" class="push-1-8">Your First And Last Name</label>
-            <input id="first-last" name="first-last">
+            <label for="name" class="push-1-8">First And Last Name</label>
+            <input id="name" name="name">
           </div>
 
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
@@ -76,12 +65,12 @@
 
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label for="address" class="push-1-8">Address</label>
-            <input id="address" name="address">
+            <input id="address" name="address" required>
           </div>
 
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label for="email" class="push-1-8">Email Address</label>
-            <input id="email" name="email">
+            <input id="email" name="email" required>
           </div>
 
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
@@ -89,12 +78,151 @@
             <input id="phone" name="phone" required>
           </div>
 
-          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
-            <label for="child" class="push-1-8">Do You Have Children?</label>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2 pad-b-2">
+            <label for="child" class="push-1-8">Number Of Children</label>
             <select id="child" name="child">
+              <option>0</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>More</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1 l-1 ] gutter-1-2">
+            <h2 class="push-0 pad-b-1-4 giga ">Your Lifestyle</h2>
+          </div>
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="house" class="push-1-8">House Style</label>
+            <select id="house" name="house">
+              <option>House</option>
+              <option>Townhouse</option>
+              <option>Apartment</option>
+              <option>Mobile Home</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="rent-own" class="push-1-8">Do you rent or own?</label>
+            <select id="rent-own" name="rent-own">
+              <option>Rent</option>
+              <option>Own</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="yard-size" class="push-1-8">Approximate Yard Size</label>
+            <input id="yard-size" name="yard-size" required>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="secure" class="push-1-8">Is your yard fully fenced in and secure?</label>
+            <input id="secure" name="secure" required>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2 pad-b-2">
+            <label for="hours" class="push-1-8">How many working hours will you be gone during the day?</label>
+            <select id="hours" name="hours">
+              <option>Less than 5</option>
+              <option>More than 5</option>
+              <option>10 or more hours</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1 l-1 ] gutter-1-2">
+            <h2 class="push-0 pad-b-1-4 giga ">Pet Information</h2>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="age" class="push-1-8">Prefered age of dog</label>
+            <select id="age" name="age">
+              <option>No preference</option>
+              <option>0-6 months</option>
+              <option>1-2 years</option>
+              <option>2-7 years</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="activity" class="push-1-8">Prefered activity level</label>
+            <select id="activity" name="activity">
+              <option>No preference</option>
+              <option>Very energetic</option>
+              <option>Some Energy</option>
+              <option>Relaxed</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="gender" class="push-1-8">Prefered gender</label>
+            <select id="gender" name="gender">
+              <option>Female</option>
+              <option>Male</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="size" class="push-1-8">Prefered size</label>
+            <select id="size" name="size">
+              <option>Small</option>
+              <option>Medium</option>
+              <option>Large</option>
+              <option>Extra Large</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="coat" class="push-1-8">Prefered coat</label>
+            <select id="coat" name="coat">
+              <option>Short</option>
+              <option>Medium</option>
+              <option>Long</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="own" class="push-1-8">Have you owned a dog before?</label>
+            <select id="own" name="own">
               <option>Yes</option>
               <option>No</option>
             </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="other" class="push-1-8">Do you have any other pets?</label>
+            <select id="other" name="other">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="food" class="push-1-8">What do you plan to feed your dog?</label>
+            <input id="food" name="food">
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="why" class="push-1-8">Why do you want a rescued dog?</label>
+            <textarea id="why" rows="4"></textarea>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
+            <label for="care" class="push-1-8">Do you plan to care for your dog no matter what the cost? </label>
+            <select id="care" name="care">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2 pad-b-2">
+            <input type="checkbox" id="further" name="further" value="further">
+            <label for="further">Do you agree to be asked further questions if we need?</label>
+          </div>
+
+          <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2 pad-2">
+            <input type="checkbox" id="terms" name="terms" value="terms">
+            <label for="terms">Do you agree to our terms and conditions?</label>
           </div>
 
           <div class="unit xs-1 text-center pad-b-2">
@@ -106,13 +234,15 @@
 
     <footer>
       <div class="footer" role="contentinfo">
-        <div class="pad-t-1-2 pad-b-1-2 gutter-1-2 wrapper">
-          <small class="micro"> Copyright © 2017. All Rights Reserved. Powered by WordPress.</small>
-          <div class="gutter-1-8 pad-t-1-4">
-            <p class="push-0">Stay Connected</p>
-            <img class="logos" src="images/logos.jpg" alt="" aria-details="logos">
+        <section class="max wrapper gutter-double">
+          <div class="pad-t-1-2 pad-b-1-2 gutter-1-2 wrapper">
+            <div class="gutter-1-8 pad-t-1-4">
+              <p class="push-0 pad-b-1-4">Stay Connected!</p>
+              <img class="logos pad-b-1-4" src="images/logos.jpg" alt="" aria-details="logos">
+            </div>
+            <small class="micro"> Copyright © 2017. All Rights Reserved.</small>
           </div>
-        </div>
+        </section>
       </div>
     </footer>
   </main>
