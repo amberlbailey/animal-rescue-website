@@ -74,8 +74,8 @@ a:hover {
   text-decoration: none;
 }
 
-.facebook, .instagram, .twitter {
-  width: 5%;
+.logos {
+  max-width: 10%;
 }
 
 .footer {
