@@ -7,8 +7,9 @@ h1, h2, h3, nav, .about-content, .btn {
 }
 
 .logo {
-  min-width: 25%;
-  max-width: 30%;
+  max-width: 175px;
+  min-width: 100px;
+  width: 50%;
 }
 
 .nav {
@@ -75,12 +76,17 @@ a:hover {
 }
 
 .logos {
-  max-width: 10%;
+  max-width: 20%;
 }
 
 .footer {
   background-color: #4590d0;
   color: #000;
+}
+
+.max{
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 35em) {
