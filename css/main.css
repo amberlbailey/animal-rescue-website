@@ -30,6 +30,10 @@ a:hover {
   color: #4590d0;
 }
 
+.nav li {
+  text-align: center;
+}
+
 .nav a {
   color: #fff;
   text-decoration: none;
@@ -76,7 +80,9 @@ a:hover {
 }
 
 .logos {
-  max-width: 20%;
+  max-width: 150px;
+  min-width: 100px;
+  width: 20%;
 }
 
 .footer {
@@ -84,9 +90,10 @@ a:hover {
   color: #000;
 }
 
-.max {
-  max-width: 1000px;
-  margin: 0 auto;
+.current {
+  background-color: #ea7808;
+  border-color: #ea7808;
+  color: #fff;
 }
 
 @media only screen and (min-width: 35em) {
